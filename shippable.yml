@@ -30,4 +30,3 @@ script:
 
 notifications: false
 
-build_image: shippableimages/ubuntu1204_go:0.0.1
