@@ -29,5 +29,6 @@ script:
   - $GOPATH/bin/gocover-cobertura < coverage.txt > shippable/codecoverage/coverage.xml
 
 notifications: false
+archive: true
 
 build_image: shippableimages/ubuntu1204_go:0.0.1
