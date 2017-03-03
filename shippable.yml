@@ -10,6 +10,7 @@ env:
 build:
   ci:
     - docker ps
+    - docker --version
     - go get github.com/t-yuki/gocover-cobertura
     - go get github.com/onsi/gomega
     - go get github.com/onsi/ginkgo
