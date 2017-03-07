@@ -22,6 +22,6 @@ build:
 
 integrations:
   hub:
-    - name: DockerHub
+    - integrationName: DockerHub
       type: docker
 notifications: false
