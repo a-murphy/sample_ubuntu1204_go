@@ -20,4 +20,8 @@ build:
     - go test -coverprofile=coverage.txt -covermode count ./
     - $GOPATH/bin/gocover-cobertura < coverage.txt > shippable/codecoverage/coverage.xml
 
+integrations:
+  hub:
+    - name: DockerHub
+      type: docker
 notifications: false
