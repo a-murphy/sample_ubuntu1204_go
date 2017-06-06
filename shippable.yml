@@ -8,6 +8,8 @@ env:
   - CI_REPORT=shippable/testresults/junit.xml
 
 build:
+  pre_ci:
+    - echo "testing"
   ci:
     - docker ps
     - docker --version
